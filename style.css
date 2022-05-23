@@ -4,6 +4,7 @@ body{
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
 }
+
 a{
     color: white;
     text-decoration: none !important;
@@ -55,6 +56,9 @@ button:hover{
     color: white;
     padding-left: 26px;
     padding-top: 23px;
+}
+.message_input span{
+    color: red;
 }
 input{
     background-color: #273971;

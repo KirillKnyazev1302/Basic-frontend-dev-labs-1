@@ -57,14 +57,10 @@ button:hover{
     padding-left: 26px;
     padding-top: 23px;
 }
-.message_input span{
-    color: red;
-}
 input{
     background-color: #273971;
     border-radius: 5px;
     outline: none;
-    
 }
 textarea{
     background-color: #273971;
@@ -85,7 +81,6 @@ textarea{
     color: white;
     height: 35px;
     width: auto;
-    
 }
 .button_nav_home{
     background-color: #633a79;
@@ -97,8 +92,8 @@ textarea{
 .content{
     display: grid;
     margin-top: 6rem;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     grid-template-rows: 8vh 30vh; 
     justify-items: center;
     text-align: center;

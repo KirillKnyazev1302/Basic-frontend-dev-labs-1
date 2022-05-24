@@ -85,6 +85,14 @@ textarea{
     color: white;
     height: 35px;
     width: auto;
+    
+}
+.button_nav_home{
+    background-color: #633a79;
+    box-shadow: none;
+    color: white;
+    height: 35px;
+    width: auto;
 }
 .content{
     display: grid;

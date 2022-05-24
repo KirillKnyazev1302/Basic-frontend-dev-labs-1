@@ -276,12 +276,17 @@ body{
        
    }
     .navigation{
-        margin-left: 0;
-        width: 100%;
-        margin-top: 0;
+        width: 75%;
     }
     .content{
         margin-left: 10%;
+        margin-top: 25%;
+    }
+    .content_h3{
+        width: 400px;
+    }
+    .content_join{
+        margin-top: 10%;
     }
     .home{
         visibility: hidden;

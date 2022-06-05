@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Лабораторная работа 2</title>
+</head>
+<body>
+    <form method="get" action="#" name="register_form">
+        <section class="field thirdwidth">
+            <label for="ident_number">Identification Number:</label>
+            <input type="text" name="ident_number" id="ident_number">
+        </section>
+        <section class="field fullwidth">
+            <label for="legal_name">Legal Name:</label>
+            <input type="text" name="legal_name" id="legal_name">
+        </section>
+        <section class="field fullwidth">
+            <label for="address1">Address 1:</label>
+            <input type="text" name="address1" id="address1">
+        </section>
+        <section class="field fullwidth">
+            <label for="address2">Address 1:</label>
+            <input type="text" name="address2" id="address2">
+        </section>
+
+        <fieldset>
+            <section class="left_part">
+                <section class="field fullwidth">
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city">
+                </section>
+            </section>
+            <section class="right_part">
+                <section class="field thirdwidth">
+                    <label for="state">State:</label>
+                    <input type="text" name="state" id="state">
+                </section>
+                <section class="field thirdwidth">
+                    <label for="zip">Zip:</label>
+                    <input type="text" name="zip" id="zip">
+                </section>
+                <section class="field thirdwidth">
+                    <label for="country">Country:</label>
+                    <select name="country" id="country">
+                        <option value="United States" selected>United States</option>
+                        <option value="Russia" selected>Russia</option>
+                        <option value="Germany" selected>Germany</option>
+                    </select>
+                </section>
+            </section>
+        </fieldset>
+
+        <fieldset>
+            <section class="left_part">
+                <section class="field fullwidth">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone">
+                </section>
+            </section>
+            <section class="right_part">
+                <section class="field fullwidth">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </section>
+            </section>
+        </fieldset>
+
+        <section class="button_area fullwidth">
+            <button type="reset" class="button button_reset">Reset</button>
+            <button type="submit" class="button button_submit">Submit</button>
+        </section>
+    </form>
+</body>
+</html>

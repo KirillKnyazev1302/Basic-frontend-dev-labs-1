@@ -1,0 +1,76 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+form
+{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form label
+{
+    display: block;
+}
+
+form input, form select
+{
+    width: 100%;
+    padding: 7px;
+}
+
+.thirdwidth
+{
+    width: 32%;
+}
+
+.field
+{
+    margin-bottom: 20px;
+}
+
+fieldset
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    width: 100%;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.left_part
+{
+    width: 24%;
+}
+
+.right_part
+{
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullwidth
+{
+    width: 100%;
+}
+
+.button_area
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button
+{
+    padding: 7px;
+}
+
+.button_reset
+{
+    margin-right: 15px;
+}

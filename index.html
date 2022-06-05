@@ -4,49 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+    <title>Лабораторная работа 4</title>
 </head>
 <body>
-    <div class="navigation">
-        <h2 class="logo"><a href="" >LOGO</a></h2>    
-        <h4><a href="" class="home">Home</a></h4>
-        <h4><a href="" class="ill">Illustrations</a></h4>
-        <h4><a href="" class="ill">Contact</a></h4>
-        <button class="disabled_btn"><h4>Sign up</h4></button>
-        <button class="enabled_btn"><h4>Sign in</h4></button>
+   <header class="container">
+       <div class="header_container">
+           <section class="header_logo">Logo</section>
+           <nav class="header_menu">
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">Illustrations</a></li>
+                   <li><a href="#">Contact</a></li>
+               </ul>
+           </nav>
+           <section class="header_auth">
+               <button class="button register_button">Sign up</button>
+               <button class="button login_button">Sign in</button>
+           </section>
+           <a href="#" class="burger_menu">
+               <span></span>
+               <span></span>
+               <span></span>
+           </a>
+       </div>
+   </header>
+   <main class="container">
+       <div class="main_container">
+        <h1>Make Your <span class="violet">Business</span> Stand out!</h1>
+        <h2>We provide the best illutration packs avaliable on the market</h2>
 
-        
-        <ul class="menu">
-          <li><a class="menuItem" href="#">Home</a></li>
-          <li><a class="menuItem" href="#">Profile</a></li>
-          <li><a class="menuItem" href="#">About</a></li>
-          <li><a class="menuItem" href="#">Contacts</a></li>
-        </ul>
-        <button class="hamburger">
-          <i class="menuIcon material-icons" style="background: url('https://api.iconify.design/charm/menu-hamburger.svg') no-repeat center center / contain;"></i>
-          <i class="closeIcon material-icons" style="background: url('https://api.iconify.design/ep/close.svg') no-repeat center center / contain;"></i>
-
-
-    </div>
-
-    <div class="head_block">
-        <div class="content">
-            
-            <h1>Make Your <font color="#5352ed">Business</font> Stand out!</h1>
-            <h3 class="content_h3">We provide the best illutration packs avaliable on the market</h3>
-            <h4 class="content_join">Join our newsletter</h4>
-    
-            <form action="join">
-                <input type="" name="" class="email" id="" placeholder="Email">
-                <input type="submit" class="submit_btn" value="Sign up">
-            </form>
-    
-            
+        <form action="#" class="newsletter_form">
+            <div class="newsletter_title">Join our newsletter</div>
+            <input type="email" name="email" placeholder="Email">
+            <button type="submit" class="button login_button">Sign up</button>
+        </form>
         </div>
-        <img src="./img/Saly-1.png" alt="ракета" class="saly">
-    </div>
-    
-    <script src="./script.js"></script>
+   </main>
 </body>
 </html>
